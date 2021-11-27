@@ -7,7 +7,10 @@
 
 import SwiftUI
 
-struct ProjectView: View {
+struct ProjectsView: View {
+    static let openTag: String? = "Open"
+    static let closedTag: String? = "Closed"
+    
     let showClosedProject: Bool
     
     let projects: FetchRequest<Project>
@@ -22,9 +25,9 @@ struct ProjectView: View {
         NavigationView {
             List {
                 ForEach(projects.wrappedValue) { project in
-                    Section(header: Text(project.title ?? "")) {
-                        ForEach(project.items?.allObjects as? [Item] ?? []) { item in
-                            Text(item.title ?? "")
+                    Section(header: Text(project.projectTitle)) {
+                        ForEach(project.projectItems) { item in
+                            Text(item.itemTitle)
                         }
                     }
                 }
@@ -35,11 +38,11 @@ struct ProjectView: View {
     }
 }
 
-struct ProjectView_Previews: PreviewProvider {
+struct ProjectsView_Previews: PreviewProvider {
     static var dataController = DataController.preview
     
     static var previews: some View {
-        ProjectView(showClosedProject: false)
+        ProjectsView(showClosedProject: false)
             .environment(\.managedObjectContext, dataController.container.viewContext)
             .environmentObject(dataController)
     }
