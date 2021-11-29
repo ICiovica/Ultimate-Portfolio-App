@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		AC1578DB27529E2100FF7529 /* Item-CoreData-Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1578DA27529E2100FF7529 /* Item-CoreData-Helpers.swift */; };
 		AC1578DD27529F6A00FF7529 /* Project-CoreData-Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1578DC27529F6A00FF7529 /* Project-CoreData-Helpers.swift */; };
+		ACC6116C2753E4E500EF0AF8 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6116B2753E4E500EF0AF8 /* EditItemView.swift */; };
+		ACC6116E2754334D00EF0AF8 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6116D2754334D00EF0AF8 /* ItemRowView.swift */; };
+		ACC611702754A75200EF0AF8 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6116F2754A75200EF0AF8 /* Binding-OnChange.swift */; };
+		ACC611722754AAFE00EF0AF8 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC611712754AAFE00EF0AF8 /* ProjectHeaderView.swift */; };
+		ACC611742754ADFF00EF0AF8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC611732754ADFF00EF0AF8 /* Colors.xcassets */; };
+		ACC611762754AEFD00EF0AF8 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC611752754AEFD00EF0AF8 /* EditProjectView.swift */; };
 		ACD91DF52752733A00FD4FA0 /* Ultimate_PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD91DF42752733A00FD4FA0 /* Ultimate_PortfolioApp.swift */; };
 		ACD91DF72752733A00FD4FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD91DF62752733A00FD4FA0 /* ContentView.swift */; };
 		ACD91DF92752733C00FD4FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD91DF82752733C00FD4FA0 /* Assets.xcassets */; };
@@ -23,6 +29,12 @@
 /* Begin PBXFileReference section */
 		AC1578DA27529E2100FF7529 /* Item-CoreData-Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreData-Helpers.swift"; sourceTree = "<group>"; };
 		AC1578DC27529F6A00FF7529 /* Project-CoreData-Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreData-Helpers.swift"; sourceTree = "<group>"; };
+		ACC6116B2753E4E500EF0AF8 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		ACC6116D2754334D00EF0AF8 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		ACC6116F2754A75200EF0AF8 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
+		ACC611712754AAFE00EF0AF8 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		ACC611732754ADFF00EF0AF8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		ACC611752754AEFD00EF0AF8 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		ACD91DF12752733A00FD4FA0 /* Ultimate Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ultimate Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD91DF42752733A00FD4FA0 /* Ultimate_PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ultimate_PortfolioApp.swift; sourceTree = "<group>"; };
 		ACD91DF62752733A00FD4FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,13 +85,19 @@
 				ACD91E0727527F8B00FD4FA0 /* Ultimate Portfolio.entitlements */,
 				ACD91DF42752733A00FD4FA0 /* Ultimate_PortfolioApp.swift */,
 				ACD91DF62752733A00FD4FA0 /* ContentView.swift */,
+				ACC6116B2753E4E500EF0AF8 /* EditItemView.swift */,
+				ACC611712754AAFE00EF0AF8 /* ProjectHeaderView.swift */,
+				ACC611752754AEFD00EF0AF8 /* EditProjectView.swift */,
+				ACC6116F2754A75200EF0AF8 /* Binding-OnChange.swift */,
 				ACD91E0C2752835400FD4FA0 /* HomeView.swift */,
+				ACC6116D2754334D00EF0AF8 /* ItemRowView.swift */,
 				ACD91E0E275283A400FD4FA0 /* ProjectsView.swift */,
 				AC1578DA27529E2100FF7529 /* Item-CoreData-Helpers.swift */,
 				AC1578DC27529F6A00FF7529 /* Project-CoreData-Helpers.swift */,
 				ACD91E052752780C00FD4FA0 /* DataController.swift */,
 				ACD91E022752740500FD4FA0 /* Main.xcdatamodeld */,
 				ACD91DF82752733C00FD4FA0 /* Assets.xcassets */,
+				ACC611732754ADFF00EF0AF8 /* Colors.xcassets */,
 				ACD91DFA2752733C00FD4FA0 /* Preview Content */,
 			);
 			path = "Ultimate Portfolio";
@@ -159,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC611742754ADFF00EF0AF8 /* Colors.xcassets in Resources */,
 				ACD91DFC2752733C00FD4FA0 /* Preview Assets.xcassets in Resources */,
 				ACD91DF92752733C00FD4FA0 /* Assets.xcassets in Resources */,
 			);
@@ -172,13 +191,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC1578DD27529F6A00FF7529 /* Project-CoreData-Helpers.swift in Sources */,
+				ACC611722754AAFE00EF0AF8 /* ProjectHeaderView.swift in Sources */,
 				ACD91E0F275283A400FD4FA0 /* ProjectsView.swift in Sources */,
 				ACD91E042752740500FD4FA0 /* Main.xcdatamodeld in Sources */,
+				ACC611762754AEFD00EF0AF8 /* EditProjectView.swift in Sources */,
 				ACD91E062752780C00FD4FA0 /* DataController.swift in Sources */,
+				ACC6116E2754334D00EF0AF8 /* ItemRowView.swift in Sources */,
 				ACD91DF72752733A00FD4FA0 /* ContentView.swift in Sources */,
+				ACC611702754A75200EF0AF8 /* Binding-OnChange.swift in Sources */,
 				ACD91E0D2752835400FD4FA0 /* HomeView.swift in Sources */,
 				ACD91DF52752733A00FD4FA0 /* Ultimate_PortfolioApp.swift in Sources */,
 				AC1578DB27529E2100FF7529 /* Item-CoreData-Helpers.swift in Sources */,
+				ACC6116C2753E4E500EF0AF8 /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
