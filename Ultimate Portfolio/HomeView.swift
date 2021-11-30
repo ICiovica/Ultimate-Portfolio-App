@@ -23,7 +23,7 @@ struct HomeView: View {
     
     init() {
         let request: NSFetchRequest<Item> = Item.fetchRequest()
-        request.predicate = NSPredicate(format: "Completed = false")
+        request.predicate = NSPredicate(format: "completed = false")
         
         request.sortDescriptors = [
             NSSortDescriptor(keyPath: \Item.priority, ascending: true)
@@ -74,7 +74,7 @@ struct HomeView: View {
         }
     }
     
-    @ViewBuilder func list(_ title: String, for items: FetchedResults<Item>.SubSequence) -> some View {
+    @ViewBuilder func list(_ title: LocalizedStringKey, for items: FetchedResults<Item>.SubSequence) -> some View {
         if items.isEmpty {
             EmptyView()
         } else {
