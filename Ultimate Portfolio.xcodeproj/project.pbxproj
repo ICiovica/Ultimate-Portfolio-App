@@ -16,6 +16,8 @@
 		AC815D192756A2E300F1F62F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC815D1B2756A2E300F1F62F /* Localizable.strings */; };
 		AC815D1D2756A3D800F1F62F /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = AC815D1F2756A3D800F1F62F /* Localizable.stringsdict */; };
 		AC815D212756A5CE00F1F62F /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = AC815D232756A5CE00F1F62F /* Awards.json */; };
+		AC8508602756D21500D5ED95 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85085F2756D21500D5ED95 /* ItemListView.swift */; };
+		AC8508622756D37800D5ED95 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8508612756D37800D5ED95 /* ProjectSummaryView.swift */; };
 		ACAF77A727554DA900C0E40F /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF77A627554DA900C0E40F /* Sequence-Sorting.swift */; };
 		ACAF77A9275573CF00C0E40F /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF77A8275573CF00C0E40F /* SelectSomethingView.swift */; };
 		ACC6116C2753E4E500EF0AF8 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6116B2753E4E500EF0AF8 /* EditItemView.swift */; };
@@ -48,6 +50,8 @@
 		AC815D202756A3DD00F1F62F /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		AC815D222756A5CE00F1F62F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		AC815D242756A5D400F1F62F /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
+		AC85085F2756D21500D5ED95 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		AC8508612756D37800D5ED95 /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 		ACAF77A627554DA900C0E40F /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
 		ACAF77A8275573CF00C0E40F /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 		ACC6116B2753E4E500EF0AF8 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 				ACC611752754AEFD00EF0AF8 /* EditProjectView.swift */,
 				ACC6116F2754A75200EF0AF8 /* Binding-OnChange.swift */,
 				ACD91E0C2752835400FD4FA0 /* HomeView.swift */,
+				AC85085F2756D21500D5ED95 /* ItemListView.swift */,
 				AC815D0B27564BA700F1F62F /* Bundle-Decodable.swift */,
 				ACC6116D2754334D00EF0AF8 /* ItemRowView.swift */,
 				AC815D1B2756A2E300F1F62F /* Localizable.strings */,
@@ -122,6 +127,7 @@
 				ACD91E0E275283A400FD4FA0 /* ProjectsView.swift */,
 				ACAF77A627554DA900C0E40F /* Sequence-Sorting.swift */,
 				AC1578DA27529E2100FF7529 /* Item-CoreData-Helpers.swift */,
+				AC8508612756D37800D5ED95 /* ProjectSummaryView.swift */,
 				AC1578DC27529F6A00FF7529 /* Project-CoreData-Helpers.swift */,
 				ACD91E052752780C00FD4FA0 /* DataController.swift */,
 				AC815D232756A5CE00F1F62F /* Awards.json */,
@@ -225,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC1578DD27529F6A00FF7529 /* Project-CoreData-Helpers.swift in Sources */,
+				AC8508622756D37800D5ED95 /* ProjectSummaryView.swift in Sources */,
 				ACC611722754AAFE00EF0AF8 /* ProjectHeaderView.swift in Sources */,
 				AC815D122756530600F1F62F /* AwardsView.swift in Sources */,
 				ACD91E0F275283A400FD4FA0 /* ProjectsView.swift in Sources */,
@@ -239,6 +246,7 @@
 				ACC611702754A75200EF0AF8 /* Binding-OnChange.swift in Sources */,
 				ACAF77A727554DA900C0E40F /* Sequence-Sorting.swift in Sources */,
 				AC815D0C27564BA700F1F62F /* Bundle-Decodable.swift in Sources */,
+				AC8508602756D21500D5ED95 /* ItemListView.swift in Sources */,
 				ACD91E0D2752835400FD4FA0 /* HomeView.swift in Sources */,
 				ACD91DF52752733A00FD4FA0 /* Ultimate_PortfolioApp.swift in Sources */,
 				AC1578DB27529E2100FF7529 /* Item-CoreData-Helpers.swift in Sources */,
