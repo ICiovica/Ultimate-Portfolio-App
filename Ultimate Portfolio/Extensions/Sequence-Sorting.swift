@@ -36,7 +36,6 @@ extension Sequence {
                     continue
                 }
             }
-
             return false
         }
     }
