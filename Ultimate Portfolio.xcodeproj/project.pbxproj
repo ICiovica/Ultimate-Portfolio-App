@@ -26,7 +26,7 @@
 		ACC611722754AAFE00EF0AF8 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC611712754AAFE00EF0AF8 /* ProjectHeaderView.swift */; };
 		ACC611742754ADFF00EF0AF8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC611732754ADFF00EF0AF8 /* Colors.xcassets */; };
 		ACC611762754AEFD00EF0AF8 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC611752754AEFD00EF0AF8 /* EditProjectView.swift */; };
-		ACD91DF52752733A00FD4FA0 /* Ultimate_PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD91DF42752733A00FD4FA0 /* Ultimate_PortfolioApp.swift */; };
+		ACD91DF52752733A00FD4FA0 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD91DF42752733A00FD4FA0 /* UltimatePortfolioApp.swift */; };
 		ACD91DF72752733A00FD4FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD91DF62752733A00FD4FA0 /* ContentView.swift */; };
 		ACD91DF92752733C00FD4FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD91DF82752733C00FD4FA0 /* Assets.xcassets */; };
 		ACD91DFC2752733C00FD4FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD91DFB2752733C00FD4FA0 /* Preview Assets.xcassets */; };
@@ -61,7 +61,7 @@
 		ACC611732754ADFF00EF0AF8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		ACC611752754AEFD00EF0AF8 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		ACD91DF12752733A00FD4FA0 /* Ultimate Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ultimate Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACD91DF42752733A00FD4FA0 /* Ultimate_PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ultimate_PortfolioApp.swift; sourceTree = "<group>"; };
+		ACD91DF42752733A00FD4FA0 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		ACD91DF62752733A00FD4FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACD91DF82752733C00FD4FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD91DFB2752733C00FD4FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 			children = (
 				ACD91E0827527F9200FD4FA0 /* Ultimate-Portfolio-Info.plist */,
 				ACD91E0727527F8B00FD4FA0 /* Ultimate Portfolio.entitlements */,
-				ACD91DF42752733A00FD4FA0 /* Ultimate_PortfolioApp.swift */,
+				ACD91DF42752733A00FD4FA0 /* UltimatePortfolioApp.swift */,
 				ACD91DF62752733A00FD4FA0 /* ContentView.swift */,
 				ACC6116B2753E4E500EF0AF8 /* EditItemView.swift */,
 				ACC611712754AAFE00EF0AF8 /* ProjectHeaderView.swift */,
@@ -162,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACD91DFF2752733C00FD4FA0 /* Build configuration list for PBXNativeTarget "Ultimate Portfolio" */;
 			buildPhases = (
+				AC8508632757942000D5ED95 /* SwiftLint */,
 				ACD91DED2752733A00FD4FA0 /* Sources */,
 				ACD91DEE2752733A00FD4FA0 /* Frameworks */,
 				ACD91DEF2752733A00FD4FA0 /* Resources */,
@@ -225,6 +226,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC8508632757942000D5ED95 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from\nhttps://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACD91DED2752733A00FD4FA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -248,7 +270,7 @@
 				AC815D0C27564BA700F1F62F /* Bundle-Decodable.swift in Sources */,
 				AC8508602756D21500D5ED95 /* ItemListView.swift in Sources */,
 				ACD91E0D2752835400FD4FA0 /* HomeView.swift in Sources */,
-				ACD91DF52752733A00FD4FA0 /* Ultimate_PortfolioApp.swift in Sources */,
+				ACD91DF52752733A00FD4FA0 /* UltimatePortfolioApp.swift in Sources */,
 				AC1578DB27529E2100FF7529 /* Item-CoreData-Helpers.swift in Sources */,
 				ACC6116C2753E4E500EF0AF8 /* EditItemView.swift in Sources */,
 			);

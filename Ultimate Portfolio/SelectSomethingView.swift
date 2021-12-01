@@ -14,7 +14,6 @@ struct SelectSomethingView: View {
             .foregroundColor(.secondary)
     }
 }
-
 struct SelectSomethingView_Previews: PreviewProvider {
     static var previews: some View {
         SelectSomethingView()
