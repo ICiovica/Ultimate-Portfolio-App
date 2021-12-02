@@ -30,7 +30,7 @@ struct EditProjectView: View {
                 TextField("Project name", text: $title.onChange(update))
                 TextField("Description of this project", text: $detail.onChange(update))
             }
-            Section(header: Text("Custon project color")) {
+            Section(header: Text("Custom project color")) {
                 LazyVGrid(columns: colorColumns) {
                     ForEach(Project.colors, id: \.self, content: colorButton)
                 }
