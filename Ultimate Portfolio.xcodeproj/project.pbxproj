@@ -43,6 +43,7 @@
 		ACE7B94C2758502800166295 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7B94B2758502800166295 /* ExtensionTests.swift */; };
 		ACE7B94F275852CA00166295 /* DecodableDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = ACE7B94E275852CA00166295 /* DecodableDictionary.json */; };
 		ACE7B951275852FC00166295 /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = ACE7B950275852FC00166295 /* DecodableString.json */; };
+		ACE7B9532758576D00166295 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7B9522758576D00166295 /* PerformanceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		ACE7B94B2758502800166295 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		ACE7B94E275852CA00166295 /* DecodableDictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableDictionary.json; sourceTree = "<group>"; };
 		ACE7B950275852FC00166295 /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
+		ACE7B9522758576D00166295 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,13 +200,14 @@
 		AC8508732757F97A00D5ED95 /* UltimatePortfolioTest */ = {
 			isa = PBXGroup;
 			children = (
-				ACE7B94D275852AE00166295 /* Fixtures */,
 				AC85087B2757FAD500D5ED95 /* AssetTest.swift */,
 				AC85087F2758097300D5ED95 /* AwardTests.swift */,
 				ACE7B9492758467A00166295 /* DevelopmentTests.swift */,
-				AC85087D2758066900D5ED95 /* ProjectTests.swift */,
 				ACE7B94B2758502800166295 /* ExtensionTests.swift */,
+				ACE7B9522758576D00166295 /* PerformanceTests.swift */,
+				AC85087D2758066900D5ED95 /* ProjectTests.swift */,
 				AC8508742757F97A00D5ED95 /* UltimatePortfolioTest.swift */,
+				ACE7B94D275852AE00166295 /* Fixtures */,
 			);
 			path = UltimatePortfolioTest;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE7B9532758576D00166295 /* PerformanceTests.swift in Sources */,
 				AC85087C2757FAD500D5ED95 /* AssetTest.swift in Sources */,
 				AC8508802758097300D5ED95 /* AwardTests.swift in Sources */,
 				AC8508752757F97A00D5ED95 /* UltimatePortfolioTest.swift in Sources */,
