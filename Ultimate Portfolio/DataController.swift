@@ -19,7 +19,7 @@ class DataController: ObservableObject {
     /// Defaults to permanent storage.
     /// - Parameter inMemory: Whether to store this data in temporary memory or not.
     init(inMemory: Bool = false) {
-        container = NSPersistentCloudKitContainer(name: "Main")
+        container = NSPersistentCloudKitContainer(name: "Main", managedObjectModel: Self.model)
         // For crating and testing purposes, we create a temporary, in-memory database by
         // writing to /dev/null so our data is destroyed after the finishing running.
         if inMemory {
@@ -40,6 +40,15 @@ class DataController: ObservableObject {
             fatalError("Fata error creating preview: \(error.localizedDescription)")
         }
         return dataController
+    }()
+    static let model: NSManagedObjectModel = {
+        guard let url = Bundle.main.url(forResource: "Main", withExtension: "momd") else {
+            fatalError("Failed to locate model file.")
+        }
+        guard let managedObjectModel = NSManagedObjectModel(contentsOf: url) else {
+            fatalError("Failed to load model file.")
+        }
+        return managedObjectModel
     }()
     /// Creates example projects and items to make manual testing easier.
     ///  - Throws: An NSerror sent from calling save() on the NSManagedObjectContext.
@@ -76,7 +85,7 @@ class DataController: ObservableObject {
         let fetchRequest1: NSFetchRequest<NSFetchRequestResult> = Item.fetchRequest()
         let batchDeleteRequest1 = NSBatchDeleteRequest(fetchRequest: fetchRequest1)
         _ = try? container.viewContext.execute(batchDeleteRequest1)
-        let fetchRequest2: NSFetchRequest<NSFetchRequestResult> = Item.fetchRequest()
+        let fetchRequest2: NSFetchRequest<NSFetchRequestResult> = Project.fetchRequest()
         let batchDeleteRequest2 = NSBatchDeleteRequest(fetchRequest: fetchRequest2)
         _ = try? container.viewContext.execute(batchDeleteRequest2)
     }

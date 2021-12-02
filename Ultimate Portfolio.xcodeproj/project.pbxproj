@@ -20,6 +20,8 @@
 		AC8508622756D37800D5ED95 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8508612756D37800D5ED95 /* ProjectSummaryView.swift */; };
 		AC8508752757F97A00D5ED95 /* UltimatePortfolioTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8508742757F97A00D5ED95 /* UltimatePortfolioTest.swift */; };
 		AC85087C2757FAD500D5ED95 /* AssetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85087B2757FAD500D5ED95 /* AssetTest.swift */; };
+		AC85087E2758066900D5ED95 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85087D2758066900D5ED95 /* ProjectTests.swift */; };
+		AC8508802758097300D5ED95 /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85087F2758097300D5ED95 /* AwardTests.swift */; };
 		ACAF77A727554DA900C0E40F /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF77A627554DA900C0E40F /* Sequence-Sorting.swift */; };
 		ACAF77A9275573CF00C0E40F /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF77A8275573CF00C0E40F /* SelectSomethingView.swift */; };
 		ACC6116C2753E4E500EF0AF8 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6116B2753E4E500EF0AF8 /* EditItemView.swift */; };
@@ -37,6 +39,10 @@
 		ACD91E0B27527FB100FD4FA0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD91E0A27527FB100FD4FA0 /* CloudKit.framework */; };
 		ACD91E0D2752835400FD4FA0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD91E0C2752835400FD4FA0 /* HomeView.swift */; };
 		ACD91E0F275283A400FD4FA0 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD91E0E275283A400FD4FA0 /* ProjectsView.swift */; };
+		ACE7B94A2758467A00166295 /* DevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7B9492758467A00166295 /* DevelopmentTests.swift */; };
+		ACE7B94C2758502800166295 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7B94B2758502800166295 /* ExtensionTests.swift */; };
+		ACE7B94F275852CA00166295 /* DecodableDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = ACE7B94E275852CA00166295 /* DecodableDictionary.json */; };
+		ACE7B951275852FC00166295 /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = ACE7B950275852FC00166295 /* DecodableString.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,8 @@
 		AC8508722757F97A00D5ED95 /* UltimatePortfolioTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8508742757F97A00D5ED95 /* UltimatePortfolioTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTest.swift; sourceTree = "<group>"; };
 		AC85087B2757FAD500D5ED95 /* AssetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTest.swift; sourceTree = "<group>"; };
+		AC85087D2758066900D5ED95 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		AC85087F2758097300D5ED95 /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
 		ACAF77A627554DA900C0E40F /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
 		ACAF77A8275573CF00C0E40F /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 		ACC6116B2753E4E500EF0AF8 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
@@ -87,6 +95,10 @@
 		ACD91E0A27527FB100FD4FA0 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		ACD91E0C2752835400FD4FA0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ACD91E0E275283A400FD4FA0 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		ACE7B9492758467A00166295 /* DevelopmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentTests.swift; sourceTree = "<group>"; };
+		ACE7B94B2758502800166295 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		ACE7B94E275852CA00166295 /* DecodableDictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableDictionary.json; sourceTree = "<group>"; };
+		ACE7B950275852FC00166295 /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,12 +123,12 @@
 		AC8508672757A6A000D5ED95 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				ACC6116F2754A75200EF0AF8 /* Binding-OnChange.swift */,
+				AC815D0B27564BA700F1F62F /* Bundle-Decodable.swift */,
+				AC815D1327567DB600F1F62F /* Color-Additions.swift */,
 				AC1578DA27529E2100FF7529 /* Item-CoreData-Helpers.swift */,
 				AC1578DC27529F6A00FF7529 /* Project-CoreData-Helpers.swift */,
-				AC815D0B27564BA700F1F62F /* Bundle-Decodable.swift */,
 				ACAF77A627554DA900C0E40F /* Sequence-Sorting.swift */,
-				AC815D1327567DB600F1F62F /* Color-Additions.swift */,
-				ACC6116F2754A75200EF0AF8 /* Binding-OnChange.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -133,9 +145,9 @@
 		AC8508692757A6D700D5ED95 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				ACD91E022752740500FD4FA0 /* Main.xcdatamodeld */,
 				ACD91E0727527F8B00FD4FA0 /* Ultimate Portfolio.entitlements */,
 				ACD91E0827527F9200FD4FA0 /* Ultimate-Portfolio-Info.plist */,
-				ACD91E022752740500FD4FA0 /* Main.xcdatamodeld */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -186,8 +198,13 @@
 		AC8508732757F97A00D5ED95 /* UltimatePortfolioTest */ = {
 			isa = PBXGroup;
 			children = (
-				AC8508742757F97A00D5ED95 /* UltimatePortfolioTest.swift */,
+				ACE7B94D275852AE00166295 /* Fixtures */,
 				AC85087B2757FAD500D5ED95 /* AssetTest.swift */,
+				AC85087F2758097300D5ED95 /* AwardTests.swift */,
+				ACE7B9492758467A00166295 /* DevelopmentTests.swift */,
+				AC85087D2758066900D5ED95 /* ProjectTests.swift */,
+				ACE7B94B2758502800166295 /* ExtensionTests.swift */,
+				AC8508742757F97A00D5ED95 /* UltimatePortfolioTest.swift */,
 			);
 			path = UltimatePortfolioTest;
 			sourceTree = "<group>";
@@ -242,6 +259,15 @@
 				ACD91E0A27527FB100FD4FA0 /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACE7B94D275852AE00166295 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				ACE7B94E275852CA00166295 /* DecodableDictionary.json */,
+				ACE7B950275852FC00166295 /* DecodableString.json */,
+			);
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +353,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE7B94F275852CA00166295 /* DecodableDictionary.json in Resources */,
+				ACE7B951275852FC00166295 /* DecodableString.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +400,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC85087C2757FAD500D5ED95 /* AssetTest.swift in Sources */,
+				AC8508802758097300D5ED95 /* AwardTests.swift in Sources */,
 				AC8508752757F97A00D5ED95 /* UltimatePortfolioTest.swift in Sources */,
+				ACE7B94C2758502800166295 /* ExtensionTests.swift in Sources */,
+				AC85087E2758066900D5ED95 /* ProjectTests.swift in Sources */,
+				ACE7B94A2758467A00166295 /* DevelopmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
